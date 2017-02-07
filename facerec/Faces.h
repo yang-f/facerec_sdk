@@ -9,6 +9,6 @@
 #include <vector>
 
 @interface Faces : NSObject
-+ (std::vector <float*>)recognizeFacesWith:(unsigned char *)data width:(int)width height:(int)height;
++ (std::vector <float*>)recognizeWith:(unsigned char *)data width:(int)width height:(int)height;
 @end
 
