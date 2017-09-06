@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
  
 
   s.name         = "iOS_iF_facerec"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "face recognize."
 
   s.description  = <<-DESC
@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
 
-  s.source       = { :git => "https://github.com/yfei89/facerec_sdk.git", :tag => "0.0.7"}
-  s.resource     = "resource.bundle"
+  s.source       = { :git => "https://github.com/yfei89/facerec_sdk.git", :tag => "0.0.8"}
+  s.resources    = 'resource/*.{png,xib,nib,bundle}'
   
   s.source_files = 'facerec/*.{h,m}'
   s.public_header_files = "facerec/*.h"
